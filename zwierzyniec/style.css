@@ -6,19 +6,46 @@
   font-weight: 100;
 }
 
+.container{
+  width: 80%;
+}
+
+body{
+  margin: 20px 0;
+}
+
 nav{
   font-weight: 300;
+}
+nav li, footer {
+  position: relative;
+  float: right;
 }
 
 li {
   list-style: none;
   display: inline-block;
+
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.tekst>li {
+  display: inline-block;
+  width: 30%;
 }
 
 div{
   margin: 0 auto;
+  border: 1px solid black;
 }
 
 a{
   text-decoration: none;
+}
+footer {
+  border-top:1px solid #999966;
 }
