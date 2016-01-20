@@ -17,9 +17,26 @@ body{
 nav{
   font-weight: 300;
 }
+
 nav li, footer {
   position: relative;
   float: right;
+}
+
+nav li {
+  margin: 0.5%;
+  padding-right: 0.5%;
+  border-right: 1px solid #575756;
+}
+
+.logo{
+  position: relative;
+  float: left;
+  left:20px;
+  z-index: 100;
+}
+.empty {
+  clear: both;
 }
 
 li {
@@ -30,6 +47,7 @@ li {
 
 img{
   max-width: 100%;
+  padding-right: 1%;
   height: auto;
 }
 
@@ -46,6 +64,8 @@ div{
 a{
   text-decoration: none;
 }
+
 footer {
+  padding-right: 10%;
   border-top:1px solid #999966;
 }
